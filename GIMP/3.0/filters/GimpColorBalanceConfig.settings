@@ -1,0 +1,19 @@
+# settings
+
+(GimpColorBalanceConfig "2025-06-29 16:41:42"
+    (time 1751229702)
+    (range shadows)
+    (cyan-red 0.022000000000000002)
+    (magenta-green 0.0069999999999999993)
+    (yellow-blue -0.0040000000000000001)
+    (range midtones)
+    (cyan-red 0.17800000000000002)
+    (magenta-green 0.039)
+    (yellow-blue -0.0069999999999999993)
+    (range highlights)
+    (cyan-red 0.27500000000000002)
+    (magenta-green 0.10199999999999999)
+    (yellow-blue 0.068000000000000005)
+    (preserve-luminosity yes))
+
+# end of settings

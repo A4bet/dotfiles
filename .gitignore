@@ -1,0 +1,123 @@
+# --------------------------
+# Git metadata
+# --------------------------
+.git/
+*/.git/
+
+# --------------------------
+# Editor/IDE backups and caches
+# --------------------------
+*.swp
+*.swo
+*.bak
+*~
+.vscode/
+.vscodium/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --------------------------
+# System files
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Cache, temp, logs
+# --------------------------
+**/Cache/
+**/cache/
+**/tmp/
+**/temp/
+**/logs/
+**/log/
+go/telemetry/
+
+# --------------------------
+# Application-specific caches & runtime
+# --------------------------
+btop/
+htop/
+neofetch/
+flameshot/
+pulse/
+nitrogen/
+menus/
+QtProject.conf
+unity3d/
+vlc/
+Electron/
+
+# --------------------------
+# Browser, VPN, messaging sensitive data
+# --------------------------
+BraveSoftware/
+discord/
+torbrowser/
+Mullvad VPN/
+keepassxc/
+
+# Ignore caches, backups, logs
+VSCodium/CachedData/
+VSCodium/CachedExtensions/
+VSCodium/GPUCache/
+VSCodium/Backups/
+VSCodium/logs/
+VSCodium/storage/
+
+# Track user settings
+!VSCodium/User/
+
+# --------------------------
+# GTK and DE caches
+# --------------------------
+gtk-2.0/
+gtk-3.0/
+glib-2.0/
+xfce4/
+systemd/
+
+
+# --------------------------
+# Programming / Go
+# --------------------------
+go/bin/
+go/pkg/
+go/src/**/vendor/
+
+# --------------------------
+# User-specific locales and dirs
+# --------------------------
+user-dirs.dirs
+user-dirs.locale
+
+# --------------------------
+# SSH keys (private)
+# --------------------------
+**/ssh/id_*
+**/ssh/known_hosts
+
+# --------------------------
+# Docker sensitive/runtime data
+# --------------------------
+**/docker/containers/
+**/docker/volumes/
+**/docker/network/
+**/docker/tmp/
+**/docker/auth.json
+
+# --------------------------
+# GitHub CLI
+# --------------------------
+gh/cache/
+gh/config.yml
+gh/hosts.yml
+gh/oauth_token
+
+
+!nvim/
+!nvim/**
+!.config/nvim/
+!.config/nvim/**
