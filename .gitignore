@@ -3,6 +3,7 @@
 # --------------------------
 .git/
 */.git/
+*/.gitignore
 
 # --------------------------
 # Editor/IDE backups and caches
@@ -59,16 +60,13 @@ torbrowser/
 Mullvad VPN/
 keepassxc/
 
-# Ignore caches, backups, logs
-VSCodium/CachedData/
-VSCodium/CachedExtensions/
-VSCodium/GPUCache/
-VSCodium/Backups/
-VSCodium/logs/
-VSCodium/storage/
-
 # Track user settings
-!VSCodium/User/
+VSCodium/
+GIMP/
+GIMP/3.0/
+dconf/
+Thunar/
+yay/
 
 # --------------------------
 # GTK and DE caches
