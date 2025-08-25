@@ -5,7 +5,9 @@
 - **Reminder: `chmod +x script.sh` each shell script**
 
 ## Command to make pacman download multiple packages at once:
-```sudo sed -i 's/^#ParallelDownloads/ParallelDownloads/' /etc/pacman.conf```
+```
+sudo sed -i 's/^#ParallelDownloads/ParallelDownloads/' /etc/pacman.conf
+```
 
 ## Required Pacakges:
 - i3 and or qtile
@@ -48,4 +50,6 @@ Section "InputClass"
     Option "NaturalScrolling" "on"
 EndSection
 ```
-```sudo systemctl restart display-manager```
+```
+sudo systemctl restart display-manager
+```
