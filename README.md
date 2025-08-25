@@ -59,3 +59,4 @@ sudo systemctl restart display-manager
 ![image](https://github.com/user-attachments/assets/2c4dcf7d-d46f-4636-ae86-7d4a615648be)
 ![image](https://github.com/user-attachments/assets/8931ad11-479e-48a0-ab2c-fdd6ea44f6b6)
 ![image](https://github.com/user-attachments/assets/03194683-36a2-4504-af99-433c343f6bc0)
+![image](https://github.com/user-attachments/assets/05cee7c0-f033-422b-83bb-2c6278bdc36c)
