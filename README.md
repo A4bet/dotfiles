@@ -1,7 +1,7 @@
 # dotfiles
 - Old dotfiles(with screenshots + some extra stuff at the bottom) https://github.com/A4bet/OLDdotfiles
 - i3 config is configured for 2 monitors (HDMI-0 & DP-0 - delete, add, or change as needed in it's config file -- qtile too)
-- Arch Linux is recommended (remember that the preinstalled `archinstall` is on every mordern Arch ISO)
+- Arch Linux is recommended (remember that the `archinstall` install script is on every new Arch ISO)
 - With Arch + Qtile it runs at ~550 MB of RAM at idle with just a few terminals open, i3 may be lower since it's less resource instensive.
 - **Reminder: `chmod +x script.sh` each shell script**
 
