@@ -2,6 +2,7 @@
 - Old dotfiles(with screenshots + some extra stuff at the bottom) https://github.com/A4bet/OLDdotfiles
 - i3 config is configured for 2 monitors (HDMI-0 & DP-0 - delete, add, or change as needed in it's config file -- qtile too)
 - Arch Linux is recommended (remember that the preinstalled `archinstall` is on every mordern Arch ISO)
+- With Arch + Qtile it runs at ~550 MB of RAM at idle with just a few terminals open, i3 may be lower since it's less resource instensive.
 - **Reminder: `chmod +x script.sh` each shell script**
 
 ## Command to make pacman download multiple packages at once:
@@ -20,14 +21,14 @@ flatpak
 pacman-contrib
 flameshot
 
-YAY AUR installation:
+## YAY AUR installation:
 ```
 git clone https://aur.archlinux.org/yay.git
 cd yay/
 makepkg -si
 ```
 
-SYSTEMCTLs:
+## SYSTEMCTLs:
 ```
 sudo systemctl enable ufw
 sudo sed -i 's/^#greeter-session=.*/greeter-session=lightdm-webkit2-greeter/' /etc/lightdm/lightdm.conf
@@ -38,7 +39,7 @@ sudo systemctl enable paccache.timer
 sudo systemctl enable lightdm.service
 ```
 
-(LAPTOP) Tap to click on trackpad:
+## (LAPTOP) Tap to click on trackpad:
 ( /etc/X11/xorg.conf.d/40-libinput.conf ):
 ```
 Section "InputClass"
@@ -53,3 +54,8 @@ EndSection
 ```
 sudo systemctl restart display-manager
 ```
+
+## Screenshots:
+![image](https://github.com/user-attachments/assets/2c4dcf7d-d46f-4636-ae86-7d4a615648be)
+![image](https://github.com/user-attachments/assets/8931ad11-479e-48a0-ab2c-fdd6ea44f6b6)
+![image](https://github.com/user-attachments/assets/03194683-36a2-4504-af99-433c343f6bc0)
