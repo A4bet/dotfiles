@@ -16,8 +16,8 @@ sudo sed -i 's/^#ParallelDownloads/ParallelDownloads/' /etc/pacman.conf
 alacritty picom archlinux-wallpaper lightdm lightdm-webkit2-greeter alsa-utils git ttf-jetbrains-mono-nerd rofi polybar imagemagick xorg-xdpyinfo xautolock i3lock-color(AUR/YAY)
 
 ## Optional packages:
-ufw (firewall for security)
-flatpak
+- ufw (firewall for security)
+- flatpak
 pacman-contrib
 flameshot
 
