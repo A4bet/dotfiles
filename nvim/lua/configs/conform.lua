@@ -2,6 +2,7 @@ local options = {
   formatters = {
     gofumpt = {
       command = vim.fn.expand("$HOME/go/bin/gofumpt"),     -- Adjust if needed
+      args = { "-s" }
     },
     goimports = {
       command = vim.fn.expand("$HOME/go/bin/goimports"),   -- Adjust if needed
